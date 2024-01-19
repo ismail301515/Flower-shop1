@@ -133,8 +133,7 @@ button:hover {
 .section-content .flower p {
     color: #272727;
     text-align: center;
-    font-size: 75%
-    font-weight: 700;
+    font-size: 75% font-weight: 700;
     line-height: 20px;
     /* 145.833% */
     text-decoration-line: underline;
@@ -167,5 +166,59 @@ button:hover {
     font-weight: 600;
     line-height: 35px;
     /* width: 200px; */
-    
+
+}
+
+/* 3rd section style */
+.third-section {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    align-items: center;
+    margin-bottom: 138px;
+
+}
+
+.third-section-item {
+    display: flex;
+    padding: 0 423px 0 423px;
+    justify-content: space-between;
+    gap: 215px;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+.third-section-item h3 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    color: #272727;
+
+
+}
+
+.third-section-item p {
+
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 75%;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.third-section-text {
+    margin-top: 230px;
+    margin-bottom: 52px;
+}
+
+.Off {
+    color: #E55473;
+
+}
+
+.third-section-item img {
+    width: 318px;
+    height: 420px;
+    flex-shrink: 0;
 }
