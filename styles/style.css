@@ -238,30 +238,88 @@ button:hover {
 
 /* last section style */
 
-.news-letter{
-    margin-bottom:  128px;
+.news-letter {
+    margin-bottom: 128px;
 }
+
 .news-letter-main {
     background-image: url('Rectangle9.png');
     /* padding: 122px 287px; */
     background-repeat: no-repeat;
-    background-position:center;  
+    background-position: center;
 }
 
-.news-letter-main .form-section input{
+.news-letter-main .form-section input {
     width: 700px;
     height: 50px;
     flex-shrink: 0;
-    text-decoration: none;
+    /* text-decoration: none; */
     border: none;
     margin-left: 287px;
-    /* padding: 22px 22px 500px 23px; */
-    
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+
 }
-.news-letter-main .form-section{
+
+.news-letter-main .form-section {
     display: flex;
     gap: 30px;
     margin-top: 48px;
+
+
+}
+
+footer {
+    background: #111010;
+    height: 449px;
+    flex-shrink: 0;
+    /* text-align: center; */
+    justify-content: center;
+
+}
+
+.footer-section {
+    padding: 128px 438px;
+    width: 1440px;
+    max-width: 500px;
+    text-align: center;
+    /* margin: 20px auto; */
     
+}
+
+footer .text-color {
+    color: #E55473;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 10px;
+
+}
+footer h3{
     
+    text-align: center;
+}
+footer .text-color2 {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+footer .about-shop {
+    color: rgba(255, 255, 255, 0.90);
+    width: 468px;
+    height: 45px;
+    font-size: 12px;
+    font-weight: 625px;
+    line-height: 20px;
+    margin: 18px  0;
+    text-align: center;
+}
+
+footer .established {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 75%;
+    font-weight: 355px;
+    text-align: center;
 }
