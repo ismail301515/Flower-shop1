@@ -82,8 +82,9 @@ button:hover {
 .flower-heading {
     color: #272727;
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 800px;
     margin-bottom: 18px;
+    text-align: center;
 }
 
 .section-text {
@@ -92,12 +93,12 @@ button:hover {
     margin-bottom: 48px;
     font-size: 75%;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 20px;
 }
 
 .section-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 20px;
     align-items: end;
 }
@@ -170,46 +171,23 @@ button:hover {
 }
 
 /* 3rd section style */
-.third-section {
+.hot-deal {
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    align-items: center;
-    margin-bottom: 138px;
-
 }
 
-.third-section-item {
+.hot-deal-content {
     display: flex;
-    padding: 0 423px 0 423px;
-    justify-content: space-between;
-    gap: 215px;
+    justify-content: space-around;
     text-align: center;
-    align-items: center;
-
 
 }
 
-.third-section-item h3 {
-    font-size: 40px;
-    font-weight: 800;
-    margin-bottom: 24px;
-    color: #272727;
-
-
-}
-
-.third-section-item p {
-
-    color: rgba(39, 39, 39, 0.60);
+.hot-deal .hot-deal-text {
+    max-width: 445px;
+    margin-top: 240px;
+    margin-bottom: 162px;
     text-align: center;
-    font-size: 75%;
-    font-weight: 400;
-    line-height: 30px;
-}
-
-.third-section-text {
-    margin-top: 230px;
-    margin-bottom: 52px;
 }
 
 .Off {
@@ -221,4 +199,69 @@ button:hover {
     width: 318px;
     height: 420px;
     flex-shrink: 0;
+}
+
+
+/* fourth section style */
+.fourth-section {
+    margin-bottom: 128px;
+    background: #FFF;
+}
+
+.fourth-section-text h3 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.fourth-section-text p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 75%;
+    font-weight: 400;
+    line-height: 15px;
+
+}
+
+.fourth-section-floewr {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.fourth-section-floewr img {
+    width: 342px;
+    height: 396px;
+    flex-shrink: 0;
+}
+
+/* last section style */
+
+.news-letter{
+    margin-bottom:  128px;
+}
+.news-letter-main {
+    background-image: url('Rectangle9.png');
+    /* padding: 122px 287px; */
+    background-repeat: no-repeat;
+    background-position:center;  
+}
+
+.news-letter-main .form-section input{
+    width: 700px;
+    height: 50px;
+    flex-shrink: 0;
+    text-decoration: none;
+    border: none;
+    margin-left: 287px;
+    /* padding: 22px 22px 500px 23px; */
+    
+}
+.news-letter-main .form-section{
+    display: flex;
+    gap: 30px;
+    margin-top: 48px;
+    
+    
 }
